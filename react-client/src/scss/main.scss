@@ -2,12 +2,37 @@ $main-color :  #282c34;
 
 
 .app {
-  background-color: $main-color;
+ // background-color: $main-color;
   min-height: 100vh;
   display: flex;
+  width: 100vw;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: white;
+  //justify-content: center;
+  //color: white;
 } 
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+// template
+@import url("./template/header.scss");
+
+
+// theme
+@import url("./text.scss");
+@import url("./containers.scss");
+@import url("./button.scss");
+
+
+
+
+
+
 

@@ -2,8 +2,8 @@
 
 export default function Header() {
   return(
-    <div>
-      SCRUM POKER PLANNING
+    <div className="header-wrapper">
+      Planning POKER
     </div>
   )
 
