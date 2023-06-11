@@ -1,10 +1,13 @@
 
 
 export default function Header() {
-  return(
+  return (
     <div className="header-wrapper">
-      Planning POKER
+      <div>
+        <p className="logo-text">
+          Planning POKER
+        </p>
+      </div>
     </div>
   )
-
 }
