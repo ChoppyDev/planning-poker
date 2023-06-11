@@ -6,4 +6,10 @@
 
 .row {
   display: flex;
+  padding: 0 5rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }

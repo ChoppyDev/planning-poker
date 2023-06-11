@@ -3,6 +3,7 @@ import Header from './components/template/header';
 import Index from './components';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import React, {useState, useEffect} from "react"
+import CreateRoom from "./components/create-room"
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light")
@@ -27,6 +28,7 @@ function App() {
         <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index/>}/>
+          <Route path="/create-room" element={<CreateRoom/>}/>
         </Routes>
         </BrowserRouter>
       </div>
