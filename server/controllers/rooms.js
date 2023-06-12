@@ -1,7 +1,7 @@
 
 exports.createRoom = (req, res) => {
 
-  val room = new Room({})
+ //val room = new Room({})
 
 
 }

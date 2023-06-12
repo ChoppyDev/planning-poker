@@ -5,5 +5,8 @@ const user = new mongoose.Schema({
   id: String,
   isAnonymous: Boolean,
   password: String,
-  email: String
+  email: String,
+  accountCreationDate: Date
 })
+
+module.exports = user

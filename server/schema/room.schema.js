@@ -2,6 +2,7 @@ const mongoose = require("mongoose")
 
 const room = new mongoose.Schema({
   id: String,
+  name: String,
   users: [
     {
       type: mongoose.Schema.Types.ObjectId,
@@ -11,7 +12,3 @@ const room = new mongoose.Schema({
 })
 
 module.exports = room
-
-
-// id
-// user list
