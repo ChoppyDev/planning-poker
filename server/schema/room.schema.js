@@ -1,7 +1,6 @@
 const mongoose = require("mongoose")
 
 const room = new mongoose.Schema({
-  id: String,
   name: String,
   users: [
     {
